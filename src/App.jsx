@@ -1,12 +1,15 @@
 import { useState } from 'react';
 import './App.css';
+import "./index.css";
 import {  Loaded } from './Components/Loaded';
 import { Navbar } from './Components/Navbar';
 import { Home } from './Components/Sections/Home';
 import { About } from './Components/Sections/About';
 import { Projects } from './Components/Sections/Projects';
-import "./index.css";
 import { MobileMenu } from './Components/MobileMenu';
+import { Contact } from './Components/Sections/contact';
+
+
 
 function App() {
   
@@ -25,6 +28,7 @@ function App() {
           <Home />
           <About />
           <Projects />
+          <Contact />
       </div>
     </>
   )

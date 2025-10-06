@@ -1,12 +1,17 @@
+import { RevealOnScroll } from "../RevealOnScroll"
+import profileImage from "../pic/Melly.jpg"
 
 
 export const Home = () => {
     return (
         <section id="home" className="min-h-screen flex items-center justify-center relative">
+            <RevealOnScroll>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="text-center z-10 px-4">
-                <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent leading-right">
+                <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent leading-right">
                     Hi, I'm Fobbs Rolfenson
                 </h1>
+
 
                 <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
                     I'm a full-stack developer specializing in building exceptional digital experiences, who loves crafting clean, scalable web applications.
@@ -25,6 +30,16 @@ export const Home = () => {
 
                 </div>
             </div>
+
+             <div className="flex items-center justify-center">
+      <img 
+        src={profileImage} 
+        alt="Profile" 
+        className="w-132 h-132 rounded-full object-cover border-4 border-blue-500 shadow-lg"
+      />
+    </div>
+            </div>
+            </RevealOnScroll>
         </section>
     )
 }
