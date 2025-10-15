@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import "./index.css";
-import {  Loaded } from './Components/Loaded';
+import { Loaded } from './Components/Loaded';
 import { Navbar } from './Components/Navbar';
 import { Home } from './Components/Sections/Home';
 import { About } from './Components/Sections/About';
