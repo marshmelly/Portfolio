@@ -131,7 +131,7 @@ export const Projects = () => {
                     </div>
 
                     <div className="flex justify-end items-center mt-4">
-                        <a href="#" className="text-blue-400 hover:text-cyan-300 transition-colors">
+                        <a href="https://link-eye-media.vercel.app/" className="text-blue-400 hover:text-cyan-300 transition-colors">
                             View Project &rarr;
                         </a>
                     </div>
