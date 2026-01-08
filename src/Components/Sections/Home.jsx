@@ -34,7 +34,7 @@ export const Home = () => {
              <div className="flex items-center justify-center">
       <img 
         src={profileImage} 
-        alt="Profile" 
+        alt="Fobbs Rolfenson" 
         className="w-102 h-102 rounded-full object-cover border-4 border-blue-500 shadow-lg"
       />
     </div>

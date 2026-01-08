@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://https://fobbsrolfenson.vercel.app//sitemap.xml
